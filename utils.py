@@ -16,8 +16,6 @@ def fact(n):
         return 1
     else:
         return n * fact(n-1)
-<<<<<<< Updated upstream
-=======
 
 def is_power(n, k):
     while n >= k:
@@ -29,4 +27,3 @@ def is_five_power(n):
 
 def is_two_power(n):
     return is_power(n, 2)
->>>>>>> Stashed changes
