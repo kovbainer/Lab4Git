@@ -16,3 +16,17 @@ def fact(n):
         return 1
     else:
         return n * fact(n-1)
+<<<<<<< Updated upstream
+=======
+
+def is_power(n, k):
+    while n >= k:
+        n //= k
+    return n == 1
+
+def is_five_power(n):
+    return is_power(n, 5)
+
+def is_two_power(n):
+    return is_power(n, 2)
+>>>>>>> Stashed changes
