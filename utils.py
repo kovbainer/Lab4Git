@@ -16,3 +16,8 @@ def fact(n):
         return 1
     else:
         return n * fact(n-1)
+
+def is_five_power(n):
+    while n >= 5:
+        n //= 5
+    return n == 1
